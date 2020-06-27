@@ -11,7 +11,7 @@ justify-content: space-between;
 
 .navbar h1 {
 color: red;
-font-size: 64px;
+font-size: 48px;
 font-family: 'Notable', sans-serif;	
 }
 
@@ -23,9 +23,9 @@ align-items: center;
 
 .navbar-links a {
 text-decoration: none;
-padding-right: 40px;
+margin-right: 40px;
 color: black;
-font-size: 24px;
+font-size: 20px;
 }
 
 a:hover {
