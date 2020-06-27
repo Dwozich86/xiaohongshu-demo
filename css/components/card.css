@@ -1,0 +1,35 @@
+.card-album {
+height: 640px;
+background-color: white;
+border-radius: 4px;
+box-shadow: 4px 4px 8px rgba(0,0,0,0.1);
+overflow: hidden;
+transition: 0.3s all ease;
+}
+
+.card-album img {
+height: 75%;
+width:100%;
+object-fit: cover;
+}
+
+.card-album:hover {
+box-shadow: 8px 8px 16px rgba(0,0,0,0.1);
+}
+
+.card-album .info-container {
+padding: 0 32px;	
+}
+
+.card-views {
+display: flex;
+align-items: center;
+justify-content: space-between;
+font-size: 22px;
+}
+
+.description {
+display: flex;
+align-items: center;
+justify-content: space-between;
+}

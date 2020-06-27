@@ -1,0 +1,47 @@
+.navbar {
+padding: 0 160px; 
+background: white;
+height: 160px;
+position: sticky;
+top: 0;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.navbar h1 {
+color: red;
+font-size: 64px;
+font-family: 'Notable', sans-serif;	
+}
+
+.navbar-links {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.navbar-links a {
+text-decoration: none;
+padding-right: 40px;
+color: black;
+font-size: 24px;
+}
+
+a:hover {
+color: red;
+}
+
+.navbar-links img {
+height: 80px;
+width: 80px;
+border-radius: 50%;
+object-fit: cover;
+}
+
+.avatar-lg {
+height: 48px;
+width: 48px;
+border-radius: 50%;
+object-fit: cover;
+}
